@@ -1,7 +1,7 @@
 
 <p align="center">
   <a>
-    <h1 align="center">Mental Health - Team Vinci Code</h1>
+    <h1 align="center">Mental Health Analyser</h1>
     <p align="center">A Depression Detection WebApp using <a href="https://scikit-learn.org/stable/">Sklearn</a> and <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a></p>
   </a>
 </p>
@@ -25,21 +25,6 @@ To create an informative AI-based tool that should be able to give alerts and id
     
 </div>
 
-![App Screenshot](Screenshots/Result.png)
-
-<p align="center">
-  <a>
-    <h1 align="left">Firebase Integration</h1>
-    <p align="left">All the data collected through form is stored in Realtime Database of Firebase. The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in realtime.</p>
-  </a>
-</p>
-
-![App Screenshot](Screenshots/Firebase.png)
-
-> Based on your Answers, it will show the extent of your depression. 
-
-![App Screenshot](Screenshots/Questions.png)
-
 
 # Documentation
 
@@ -48,23 +33,23 @@ To create an informative AI-based tool that should be able to give alerts and id
 Go to your project directory and create a virtual env to run flask app:
 
 ```sh
-$ cd myproject
-$ python3 -m venv venv
+$ git clone https://github.com/naasamajh1/mental-health-analyser.git
+$ cd mental-health-analyser
 ```
-Activate your virtual env :
+Create and Activate your virtual env :
 
 ```sh
+$ python3 -m venv venv
 $ . venv/bin/activate
 ```
-Within the activated environment, use the following command to install Flask:
+Within the activated environment, use the following command to install all modules:
 
 ```sh
-$ pip install Flask
+$ pip install -r requirements.txt
 ```
 To run the application, use the flask command or python -m flask. Before you can do that you need to tell your terminal the application to work with by exporting the FLASK_APP environment variable:
 
 ```sh
-$ export FLASK_APP=app
-$ flask run
+$ python app.py
  * Running on http://127.0.0.1:5000/
 ```

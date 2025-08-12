@@ -5,7 +5,7 @@ body {
 }
 
 .win1 {
-  background-color: #a3acdf;
+  background-color: #dfdea3;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29,13 +29,13 @@ body {
 }
 
 .win1 h1 span {
-  text-decoration: line-through;
-  color: #414d6d;
+  text-decoration: none;
+  color: #6d415b;
 }
 
 .win1 code {
   background-color: #f1f1f1;
-  color: #414d6d;
+  color: #41636d;
   padding: .1em;
 }
 
@@ -47,7 +47,7 @@ body {
   padding: 1.5em 5em;
   border-radius: 1em;
   background-color: #0b1927;
-  color: #b6c8e2;
+  color: #e2d8b6;
   font-weight: 800;
   text-decoration: none;
   margin-top: 3em;
